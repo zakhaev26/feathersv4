@@ -35,7 +35,7 @@ class MessageService {
     return "Done";
   }
 
-  async hello(req :any, res: ) {
+  async hello(req :any, res: any) {
     res.send('Hello from route handler in class');
   }
 }
